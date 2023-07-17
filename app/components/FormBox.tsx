@@ -29,7 +29,7 @@ export default function FormBox({ options }: Props) {
                     name=""
                     id=""
                     onChange={(e) => setSelectCat(e.target.value)}
-                    className="text-black py-4 px-2 rounded-md lg:p-4"
+                    className="text-black py-4 px-2 rounded-md lg:p-4 indent-5 h-14"
                 >
                     {options.trivia_categories.map((el) => {
                         return (
@@ -62,7 +62,7 @@ export default function FormBox({ options }: Props) {
                 <select
                     name=""
                     id=""
-                    className="text-black p-4 text-center rounded-md"
+                    className="text-black p-4  indent-5 h-14 text-center rounded-md"
                     onChange={(e) => setLevel(e.target.value)}
                 >
                     <option value="Hard">Hard</option>
